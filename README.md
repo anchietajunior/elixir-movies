@@ -1,5 +1,7 @@
 # Moviedb
 
+A simple CRUD using Phoenix and Elixir.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
