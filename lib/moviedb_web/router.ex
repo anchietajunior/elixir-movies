@@ -17,6 +17,8 @@ defmodule MoviedbWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+
+    resources "/movies", MovieController
   end
 
   # Other scopes may use custom stacks.
